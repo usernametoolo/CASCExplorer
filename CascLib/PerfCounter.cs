@@ -18,7 +18,6 @@ namespace CASCExplorer
         {
             _sw.Stop();
 
-            Console.WriteLine("{0} completed in {1}", _name, _sw.Elapsed);
             Logger.WriteLine("{0} completed in {1}", _name, _sw.Elapsed);
         }
     }
